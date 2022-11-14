@@ -1,0 +1,1068 @@
+*, p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav1 {
+    display: flex;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    align-items: center;
+    padding: .4% 0 0 7% ;
+
+}
+.nav11{
+    display: flex;
+    margin-left: 15%;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.sell i{
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 100%;
+    padding: 1px;
+    border-radius: 100%;
+}
+
+.sell{
+    color: #ff9900;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.sell a{
+    text-decoration: none;
+    color: #ff9900;
+    padding-left: 3px;
+    font-size: 75%;
+}
+.sell a:hover{
+    text-decoration: underline;
+}
+.mia{
+    display: flex;
+    align-items: center;
+}
+.mia p{
+    padding-right: 3%;
+}
+.mia i{
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 66%;
+    border-radius: 100%;
+}
+.nav111 div p{
+    padding-left: 3%;
+}
+.nav111 div{
+    margin-left: 5%;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav111 div:hover{
+    color: #ff9900;
+}
+.nav111{
+    display: flex;
+}
+
+/* top nav */
+
+
+.super div{
+    padding: 6px ;
+    font-size: small;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+}
+.super div:hover{
+    color: #ff9900;
+}
+.super i{
+    font-size: 20px;
+}
+.superr{
+    position: relative;
+}
+.superr:hover .superrdrop{
+    display: flex;
+}
+.superrdrop{
+    position: absolute;
+    left: 94%;
+    top: 0px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0 ;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.superrdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.superrdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.superrdrop h6:hover{
+    color: #e4811c;
+}
+.superrdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.superrdrop small:hover{
+    transform: scale(1.1);
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.health{
+    position: relative;
+}
+.health:hover .healthdrop{
+    display: flex;
+}
+.healthdrop{
+    position: absolute;
+    left: 94%;
+    top: -34px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0 ;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.healthdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.healthdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.healthdrop h6:hover{
+    color: #e4811c;
+}
+.healthdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.healthdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+#home{
+    position: relative;
+}
+#home:hover .homedrop{
+    display: flex;
+}
+.homedrop{
+    position: absolute;
+    left: 94%;
+    top: -67px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0 ;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.homedrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.homedrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.homedrop h6:hover{
+    color: #e4811c;
+}
+.homedrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.homedrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.phone{
+    position: relative;
+}
+.phone:hover .phonedrop{
+    display: flex;
+}
+.phonedrop{
+    position: absolute;
+    left: 94%;
+    top: -101px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0 ;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.phonedrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.phonedrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.phonedrop h6:hover{
+    color: #e4811c;
+}
+.phonedrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.phonedrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.computer{
+    position: relative;
+}
+.computer:hover .compdrop{
+    display: flex;
+}
+.compdrop{
+    position: absolute;
+    left: 94%;
+    top: -134px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.compdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.compdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.compdrop h6:hover{
+    color: #e4811c;
+}
+.compdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.compdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.elect{
+    position: relative;
+}
+.elect:hover .electdrop{
+    display: flex;
+}
+.electdrop{
+    position: absolute;
+    left: 94%;
+    top: -168px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.electdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.electdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.electdrop h6:hover{
+    color: #e4811c;
+}
+.electdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.electdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.tv{
+    position: relative;
+}
+.tv:hover .tvdrop{
+    display: flex;
+}
+.tvdrop{
+    position: absolute;
+    left: 94%;
+    top: -167px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.tvdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.tvdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.tvdrop h6:hover{
+    color: #e4811c;
+}
+.tvdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.tvdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+.fashion{
+    position: relative;
+}
+.fashion:hover .fashiondrop{
+    display: flex;
+}
+.fashiondrop{
+    position: absolute;
+    left: 94%;
+    top: -201px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.fashiondrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.fashiondrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.fashiondrop h6:hover{
+    color: #e4811c;
+}
+.fashiondrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.fashiondrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.baby{
+    position: relative;
+}
+.baby:hover .babydrop{
+    display: flex;
+}
+.babydrop{
+    position: absolute;
+    left: 94%;
+    top: -235px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.babydrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.babydrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.babydrop h6:hover{
+    color: #e4811c;
+}
+.babydrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.babydrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.gaming{
+    position: relative;
+}
+.gaming:hover .gamingdrop{
+    display: flex;
+}
+.gamingdrop{
+    position: absolute;
+    left: 94%;
+    top: -268px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.gamingdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.gamingdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.gamingdrop h6:hover{
+    color: #e4811c;
+}
+.gamingdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.gamingdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.sport{
+    position: relative;
+}
+.sport:hover .sportdrop{
+    display: flex;
+}
+.sportdrop{
+    position: absolute;
+    left: 94%;
+    top: -302px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.sportdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.sportdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.sportdrop h6:hover{
+    color: #e4811c;
+}
+.sportdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.sportdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+
+.auto{
+    position: relative;
+}
+.auto:hover .autodrop{
+    display: flex;
+}
+.autodrop{
+    position: absolute;
+    left: 94%;
+    bottom: -34px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.autodrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.autodrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.autodrop h6:hover{
+    color: #e4811c;
+}
+.autodrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.autodrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.other{
+    position: relative;
+}
+.other:hover .otherdrop{
+    display: flex;
+}
+.otherdrop{
+    position: absolute;
+    left: 94%;
+    bottom: 0px;
+    background-color: white;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    height: 402px;
+    z-index: 1;
+    display: none;
+    border-radius: 0 4px 3px 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.1);
+
+}
+.otherdrop hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.otherdrop h6{
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.otherdrop h6:hover{
+    color: #e4811c;
+}
+.otherdrop small{
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.otherdrop small:hover{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.menu{
+    position: relative;
+}
+.menu:hover .super{
+    display: block;
+}
+.super{
+    position: absolute;
+    background-color: #fff;
+    width: 13rem;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.1);
+    top: 98%;
+    left: -14px;
+    display: none;
+    transition: .3s linear;
+}
+
+
+
+.arrow{
+    font-size: 25px;
+    margin-right: 7%;
+    text-decoration:none;
+    color: #323232;
+    cursor: pointer;
+}
+.arrow:hover{
+    color: #323232;
+}
+.nav2{
+    z-index: 6;
+    padding: 0 0 0 7% ;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: -0px 0px 5px 2px  #f5f5f5;
+    position: sticky;
+    top: 0;
+
+}
+.menu{
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+    padding: 2%;
+}
+.menu:hover{
+    color: #ff9900;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h2{
+    font-weight: bolder;
+
+}
+.logo i{
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 100%;
+    padding: 3%;
+    border-radius: 100%;
+}
+
+.input input{
+    outline: none;
+    border: none;
+    width: 96%;
+    padding: 1.2%;
+    border-radius: 5px;
+}
+.input{
+    display: inline-flex;
+    align-items: center;
+    width: 36%;
+    border-radius: 5px;
+    padding-left: .8%;
+    margin-left: 3%;
+}
+.search1{
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    padding: .5% 1.5%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px 3px #f3f3f3;
+}
+.search1:hover{
+    background-color: #e4811c;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+}
+.account div{
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.account div:hover{
+    color: #e4811c;
+}
+/* 2nd nav */
+
+
+
+
+
+
+.log h6{
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 10% 0 0 0; */
+    color: #ff9900;
+    text-align: center;
+}
+.pass{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.pass:focus-within{
+    border-bottom: 2px solid #ff9900;
+}
+.pass input{
+    height: 35px;
+    width: 85%;
+    outline: none;
+    border: none;
+}
+.pass label{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    bottom: 4px;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    transition: 0.3s linear;
+}
+.pass input:focus+label,
+.pass:valid+label{
+    font-size: 12px;
+    color: #ff9900;
+    top: -7px;
+    right: 0;
+}
+.btnn1{
+    border: none;
+    font-size: 30px;
+    padding: 1% ;
+    bottom: 1%;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+.btnn1:hover{
+    background-color: #feeedd;
+}
+.forget{
+    color: #ff9900;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+
+.login1{
+    display: flex;
+    align-items: center;
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    padding: 3% 0 ;
+    box-shadow: 0px 4px 5px 3px #f2f2f2;
+    margin: 6% 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.login1:hover{
+    background-color: #e4811c;
+}
+.login1 i{
+    font-size: 23px;
+    padding-left: 1%;
+}
+.face{
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    color: #fff;
+    font-weight: bold;
+    padding: 3% 0 ;
+    box-shadow: 0px 4px 5px 3px #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.face:hover{
+    background-color: #344f88;
+}
+.face i{
+    background-color: #fff;
+    color: #344f88;
+    padding: .3%;
+    margin-left: 1%;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.as1{
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 5%;
+}
+.as2{
+    padding-right: 5%;
+}
+.asd{
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+.creat h6{
+    text-align: center;
+    background-color: #ff9900;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 7px;
+}
+.creat h6:hover{
+    background-color: #e4811c;
+}
+.creat p{
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.creat p:hover{
+    color: #e4811c;
+}
+
+
+
+/* footer */
+
+.foot small{
+    color: rgba(255, 255, 255, 0.7);
+}
+.foot p{
+    color: #fff;
+}
+.fo p{
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.fo div{
+    background-color: #fff;
+    text-align: center;
+    height: fit-content;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.fo div i{
+    padding: 0 5px;
+}
+.fo div input{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.fo{
+    align-items: center;
+    
+}
+.fo p{
+    font-size: 13px;
+
+}
+.foo i{
+    color: #ff9900;
+}
+.fooo{
+    width: fit-content;
+}
+.fooo small{
+    font-size: 8px;
+}
+.fooo p{
+    font-size: 10px;
+}
+.fooo{
+    cursor: pointer;
+
+}
+.ds small{
+    font-size: 12px;
+    display: block;
+}
+.ds small:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ds p{
+    font-size: 13px;
+}
+.aaa{
+    background-color: #323232;
+}
+.aaa p{
+    color: white;
+}
+.aaa small{
+    color: rgba(255, 255, 255, 0.7);
+}
+.ico i{
+    margin-right: 3%;
+    color: white;
+    font-size: 30px;
+}
+.ico i:hover{
+    color: #e4811c;
+}
+.nav112 span{
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav112 span:hover{
+    color: #ff9900;
+}
+
+
+
+/* media query */
+@media screen and (max-width:796px) {
+    .d7, .pk{
+        display: none;
+    }
+    .check, .forget, .input input{
+        font-size: 60%;
+    
+    }
+    .log h6, .asd, .login1, .face, .nav1{
+        font-size: 80%;
+    }
+
+
+}
+@media screen and (max-width: 1200px) {
+    .creat{
+        display: none;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .search1{
+        display: none;
+    }
+}
+@media screen and (max-width: 830px) {
+    .account div{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .nav1, .account, .input, .menu, footer, .as1{
+        display: none;
+    }
+    .check, .forget{
+        font-size: 100%;
+    }
+    .log h6{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .creat{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 861px) {
+    .account div{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,102 @@
+.banner img{
+    width: 100%;
+    border-radius: 5px;
+}
+.banner{
+    width: 101%;
+    border-radius: 5px;
+}
+
+.supply{
+    justify-content: space-between;
+    background-color: #fff;
+    width: 101%;
+    border-radius: 5px;
+}
+.supply1{
+    width: 15.7%;
+    /* height: 250px; */
+    /* margin: auto; */
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    margin: 7px 0;
+    border-radius: 5px;
+}
+.supply1 p{
+    padding: 10px 0;
+}
+.supply1:hover{
+    box-shadow: 0px 0px 4px 4px #f5f5f5;
+    transform: scale(1.02);
+}
+.supplyy{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fl1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 101%;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.fl{
+    width: 49.5%;
+}
+.fl img{
+    border-radius: 5px;
+}
+.fl:hover{
+    transform: scale(1.03);
+}
+
+.cb{
+    width: 101%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.cb img{
+    border-radius: 5px;
+}
+.cb img:hover{
+    transform: scale(1.01);
+}
+
+
+
+
+
+/* medis qurey */
+
+@media screen and (max-width: 992px) {
+    .supply1{
+        width: 19%;
+    }    
+}
+@media screen and (max-width: 861px) {
+    .supply1{
+        width: 24%;
+    }    
+}
+@media screen and (max-width: 710px) {
+    .supply1{
+        width: 32.3%;
+    }    
+}
+@media screen and (max-width: 575px) {
+    .supply1{
+        width: 45%;
+    }
+    .fl{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
